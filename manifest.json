@@ -1,0 +1,19 @@
+{
+    "manifest_version" : 2,
+    "name" : "Wiki_it!",
+    "version" : "1.0",
+    "description" : "A quick wiki opener!",
+    "icons" : {
+        "128" : "icon128.png",
+        "48" : "icon48.png",
+        "16" : "icon16.png"
+    },
+    "background" : {
+        "scripts" :["popup.js"],
+        "persistent": false
+    },
+    "permissions" : [
+        "tabs",
+        "contextMenus"
+    ]
+}
